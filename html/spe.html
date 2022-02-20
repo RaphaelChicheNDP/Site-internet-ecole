@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=divice-width, initial-sclae=1.0">
+	<link rel="icon" type="image/png" href="../images/logo_ndp.png" /><!-- C'est pour mettre une image dans l'onglet en haut  -->
+	<link rel="stylesheet" href="../css/style_accueil.css">
+	<link rel="stylesheet" href="../css/style_header.css">
+	<link rel="stylesheet" href="../css/spe.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.15.2/js/solid.js"
+		integrity="sha384-rKdfCFMYG2O/K+5WQDPmcKngEtAvqyIxYkazidXjp48yEiCcl//F6lxZ9cZ8MhM+" crossorigin="anonymous">
+	</script>
+	<script defer src="https://use.fontawesome.com/releases/v5.15.2/js/fontawesome.js"
+		integrity="sha384-PIP1h/CVyNo59Pr+vM6s86Zkm82HEv890eKMTpB5eqJZFZQwZuMwf73Sy5SzVrK8" crossorigin="anonymous">
+	</script>
+
+	<title>Spécialités </title>
+
+</head>
+
+
+<body >
+<!-- La div "header" nous permet de mettre l'accueil en haut avec le titre et les choix de redirection de site-->
+	<div class="header" >
+		<div class="header_texture"></div>
+		<div class="container">
+			<div class="header_navbar">
+				<div class="header_navbar_logo">
+					<img src="../images/logo_ndp.png" alt="logo_ndp" class="header_navbar_logo_title">
+				</div>
+				<div class="header_navbar_menu" >
+					<a href="../accueil.html" class="header_navbar_menu_link"><i
+							class="fas fa-home"></i> Accueil</a>
+					<a href="../html/information.html" class="header_navbar_menu_link"><i
+							class="fas fa-newspaper"></i> Information</a>
+					<a href="../html/histoire.html" class="header_navbar_menu_link"><i
+							class="fas fa-landmark"></i> Histoire</a>
+					<a href="../html/spe.html" class="header_navbar_menu_link"><i
+							class="fas fa-drafting-compass"></i> Spécialités</a>
+					
+				</div>
+				<div class="header_navbar_toggle">
+					<span class="header_navbar_toggle_icons"></span>
+				</div>
+			</div>
+			<div class="header_title">
+				<div class="header_title_2">
+					<h1 >Spécialités</h1>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- Ici, il ya a des raccourcis qui nous envois dans un endroit précis dans la page avec href="#___" -->
+	<div class="matières">
+	<a href="#nsi" class="matière"> <i class="fas fa-code"></i>NSI &#160;</a>
+	<a href="#svt" class="matière"> <i class="fas fa-microscope"></i>SVT&#160;</a>
+	<a href="#math" class="matière"> <i class="fas fa-calculator"></i>Mathématiques&#160;</a>
+	<a href="#physique-c" class="matière"> <i class="fas fa-atom"></i>Physique-Chimie&#160;</a>
+	<a href="#ses" class="matière"> <i class="fas fa-comments-dollar"></i>SES&#160;</a>
+	<a href="#si" class="matière"> <i class="fas fa-cogs"></i>SI&#160;</a>
+	<a href="#anglaisspe" class="matière"> <i class="fas fa-flag-usa"></i>LLCE&#160;</a>
+	<a href="#hlp" class="matière"> <i class="fas fa-book"></i>HLP&#160;</a>
+	<a href="#hggsp" class="matière"> <i class="fas fa-landmark"></i>HGGSP&#160;</a>
+	</div>
+
+	<div class="vidéo">
+		<h1 class="blink">Pour plus d'informations, cliquez sur les images.</h1>
+	</div>
+
+	<!-- La premieres spécialité, avec une class et un id -->
+	<div class="un"id="nsi">
+		<!-- Ici, si on clique sur l'image, elle nous redirigera vers une vidéo présentation-->
+		<a href="https://www.youtube.com/watch?v=Vx4ReBkMpP0" target="_blank"><img class="imagensi" src="../images/nsi.png" alt="image ordinateur"/></a>
+		<h1 id="titre" > NSI : </h1>
+		<!-- L'id "droite  " sont celle qui avec l'image à gauche et le texte a droite -->
+			<ol id="droite"> 
+				<li>La spécialité numérique et sciences informatiques vous plaira si vous aimez comprendre comment 
+					les choses fonctionnent.
+				</li> 
+				<br>
+				<li>
+					Si vous vous intéressez à l’univers de l’informatique
+					et du numérique, et si vous aimez relever des challenges (seul ou à plusieurs).
+					Cette spécialité a pour objectif de bien comprendre les concepts
+					et méthodes qui sont à la base de l’informatique.
+				</li>
+			</ol>
+	</div>
+	<!-- La deuxieme spécialité, avec une class et un id -->
+	<div class="deux" onmouseover="svt()" onmouseout="svt2()" id="svt">
+		<!-- Ici, si on clique sur l'image, elle nous redirigera vers une vidéo présentation-->
+		<a href="https://www.youtube.com/watch?v=6P1esQMpjtk" target="_blank"><img class="imagesvt" src="../images/svt.png" alt="microscope"></a>
+		<h1 id="titre" > SVT : </h1>
+		<!-- L'id "gauche  " sont celle qui avec l'image à droite et le texte a gauche -->
+		<ol id="gauche"> 
+			<li>
+				La spécialité sciences et vie de la Terre (SVT) vous est destiné si vous aimez découvrir ce qui se passe à l’intérieur d’un être vivant.
+			</li> 
+			<br>
+			<li>
+				Si vous désirez comprendre comment fonctionne un écosystème ou si vous souhaitez découvrir ce qui fait "vivre" la planète Terre.
+			</li>
+		</ol>
+	</div>
+
+	<div class="un" id="math">
+		<a href="https://www.youtube.com/watch?v=kc87kKonorI" target="_blank"><img class="imageMath" src="../images/math.png" alt="Signe mathématique"></a>
+		<h1 id="titre" > Mathématiques : </h1>
+		<ol id="droite">
+			<li> 
+				Si vous aimez chercher des solutions, réfléchir, ou si, tout simplement, 
+				vous vous orientez vers une filière qui demandera de connaître les outils des mathématiques 
+				alors la spécialité mathématiques sera indispensable.
+			</li>
+			<br>
+			<li>
+				La spécialité mathématiques en première permet d’approfondir les acquis de seconde tout en préparant ceux de terminale.
+			</li>
+			<br>
+			<li> 
+				On y étudie les statistiques, probabilités, fonctions (dont exponentielle) avec la dérivation comme moyen efficace d’étude.
+			</li>
+
+		</ol>
+	</div>
+
+	<div class="deux" onmouseover="bordurephy()" onmouseout="bordurephy2()" id="physique-c">
+		<a href="https://www.youtube.com/watch?v=zovu9F7DvIU" target="_blank"><img class="imagephysiquechimie" src="../images/physique-C.png." alt="physique chimie"></a>
+		<h1 id="titre" > Physique-Chimie : </h1>
+		<ol id="gauche"> 
+			<li>
+				Si vous aimez les sciences et aspirez à une carrière scientifique, que ce soit la médecine, la recherche, 
+				l’ingénierie ou l’aéronautique, cette matière set faite pour vous.
+			</li> 
+			<br>
+			<li>
+				Si vous désirez comprendre comment fonctionne un écosystème ou si vous souhaitez découvrir ce qui fait "vivre" la planète Terre.
+			</li>
+		</ol>
+	</div>
+	
+	<div class="un" id="ses">
+		<a href="https://www.youtube.com/watch?v=HURpe64JJ1k" target="_blank"><img class="imageses" src="../images/ses.png" alt="SES"></a>
+		<h1 id="titre" > SES : </h1>
+		<ol id="droite">
+			<li> 
+				La spécialité sciences économiques et sociales (SES) vous plaira si vous avez aimé le cours de SES en seconde.
+			</li>
+			<br>
+			<li>
+				Si vous voulez approfondir vos connaissances en sciences économiques et en sciences politiques, vous êtes la bienvenue.
+			</li>
+			<br>
+			<li> 
+				On y étudie les statistiques, probabilités, fonctions (dont exponentielle) avec la dérivation comme moyen efficace d’étude.
+			</li>
+
+		</ol>
+	</div>
+	
+	<div class="deux" onmouseover="bordureSI()" onmouseout="bordureSI2()" id="si">
+		<a href="https://www.youtube.com/watch?v=LryGIJNJ1go" target="_blank"><img class="imagesi" src="../images/si.png" alt="Science de l'ingénieur"></a>
+		<h1 id="titre" > SI : </h1>
+		<ol id="gauche"> 
+			<li>
+				La spécialité sciences de l’ingénieur (SI) est un choix à considérer si vous avez imaginé des solutions innovantes pour faire évoluer la société. 
+
+			</li> 
+			<br>
+			<li>
+				Vous y apprendrez à concevoir ce genre de produits, en mêlant les dimensions matérielles et numériques.
+			</li>
+		</ol>
+	</div>
+	
+	<div class="un" id="anglaisspe">
+		<a href="https://www.youtube.com/watch?v=nlikMWVDaac" target="_blank"><img class="imageanglaisspe" src="../images/anglaisspe.png" alt="LLCE"></a>
+		<h1 id="titre" > LLCE : </h1>
+		<ol id="droite">
+			<li> 
+				Si vous aimez apprendre les langues et vous intéresser à d’autres cultures,
+				 vous devriez opter pour la spécialité langues, littératures et cultures étrangères (LLCE).
+			</li>
+			<br>
+			<li>
+				Grâce à cette spécialité, vous aurez l’occasion d’utiliser davantage la langue et vous pourrez mieux comprendre son fonctionnement.
+			</li>
+			<br>
+			<li> 
+				La langue sera pour vous un outil pour communiquer, découvrir et analyser des documents très variés.
+			</li>
+
+		</ol>
+	</div>
+	
+	<div class="deux" onmouseover="bordureHLP()" onmouseout="bordureHLP2()" id="hlp">
+		<a href="https://www.youtube.com/watch?v=vWSR8fa6umQ" target="_blank"><img class="imagehlp" src="../images/philo.png" alt="Humanités, littérature et philosophie"></a>
+		<h1 id="titre" > HLP : </h1>
+		<ol id="gauche"> 
+			<li>
+				La spécialité humanités, littérature et philosophie (HLP) s’adresse aux élèves curieux,
+				 qui aiment ouvrir leurs horizons, penser plus large, plus haut, plus profond et plus fin.
+
+			</li> 
+			<br>
+			<li>
+				Si vous vous reconnaissez dans ce portrait, vous y trouverez de quoi vous épanouir, de quoi nourrir vos goûts et diversifier votre culture.
+			</li>
+		</ol>
+	</div>
+	
+	<div class="un" id="hggsp">
+		<a href="https://www.youtube.com/watch?v=JPuL79qLzX0" target="_blank"><img class="imagehggsp" src="../images/hggsp.png" alt="hggsp"></a>
+		<h1 id="titre" > HGGSP : </h1>
+		<ol id="droite">
+			<li> 
+				La spécialité histoire-géographie, géopolitique et sciences politiques (HGGSP) s’adresse aux élèves qui aiment comprendre le monde
+				, suivent l’actualité et s’intéressent à la complexité des relations internationales. 
+			</li>
+			<br>
+			<li>
+				Elle permet de s’ouvrir à toutes sortes de milieux : journalisme, tourisme, économie, environnement, droit, etc.
+			</li>
+			<br>
+			<li> 
+				Suivre HGGSP est aussi une bonne opportunité d’ouvrir son champ de réflexion et sa culture générale.
+			</li>
+
+		</ol>
+	</div>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../javascript/javascript_accueil.js"></script>
+	<script type="text/javascript" src="../javascript/spe.js"></script>
+</body>
+
+</html>

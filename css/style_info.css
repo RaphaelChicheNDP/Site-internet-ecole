@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+
+#box{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+#divgauche{
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background: linear-gradient(to bottom, #2C82C1, #1B4E74);
+  border: 1px solid #696969;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 9px 15px black;
+  width: 370px;
+  float: left;
+}
+
+#divcentre{
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background: linear-gradient(to bottom, #2C82C1, #1B4E74);
+  border: 1px solid #696969;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 9px 15px black;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#divdroite{
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background: linear-gradient(to bottom, #2C82C1, #1B4E74);
+  border: 1px solid #696969;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 9px 15px black;
+  width: 370px;
+  float: left;
+}
+
+#divlocalisation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;  
+}
+
+#images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;  
+}
+
+#img{
+  width: 65%;
+  border: 10px solid;
+  border-image: linear-gradient(#2C82C1, #1B4E74) 10;
+  padding: 20px;
+}
+
+#img1{
+  margin-left: 10%;
+  flex: 1; 
+  padding: 1em;
+  border: solid;
+  border: 10px solid;
+  border-image: linear-gradient(#2C82C1, #1B4E74) 10;
+  padding: 20px;
+}
+
+#img2{
+  width: 55%;
+  border: 10px solid;
+  border-image: linear-gradient(#2C82C1, #1B4E74) 10;
+  padding: 20px;
+}
+
+#a{
+  color: white;
+}
+
+#divprincipale{
+  color: white;
+  text-align: center ;
+  font-size: 120%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to bottom, #2C82C1, #1B4E74);
+  border: 1px solid #696969;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 9px 15px black;
+  margin-bottom: 10%; 
+}
+
+#box2{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between
+   
+}
+
+#div1{
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  width: 370px;
+  background: linear-gradient(to bottom, #2C82C1, #1B4E74);
+  border: 1px solid #696969;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 9px 15px black;
+  float: left;
+}
